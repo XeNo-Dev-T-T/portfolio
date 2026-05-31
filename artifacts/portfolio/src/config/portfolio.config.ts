@@ -54,14 +54,14 @@ export const portfolioConfig = {
       status: "production",
       featured: true,
       links: {
-        github: "https://github.com/AeroXDevs",
+        github: "https://github.com/XeNo-Dev-T-T",
         live: "https://strelixcloud.com"
       }
     }
   ],
 
   social: {
-    github: "https://github.com/AeroXDevs",
+    github: "https://github.com/XeNo-Dev-T-T",
     linkedin: "https://linkedin.com/in/aegis",
     twitter: "https://twitter.com/aegis",
     youtube: "https://youtube.com/@aerox-devs?si=PfSlKrjWD_pV2SXb",
