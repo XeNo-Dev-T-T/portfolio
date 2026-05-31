@@ -138,11 +138,11 @@ export const Projects = () => {
                             <Button
                               variant="outline"
                               size="sm"
-                              className="group/btn flex items-center gap-2 border-accent/30 hover:border-accent hover:bg-accent/20 transition-all duration-300 text-xs sm:text-sm font-mono"
-                              onClick={() => window.open(project.links.live, '_blank')}
+                              disabled
+                              className="flex items-center gap-2 border-red-500/30 text-red-400/60 text-xs sm:text-sm font-mono cursor-not-allowed opacity-60"
                             >
-                              <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4 group-hover/btn:scale-110 transition-transform duration-300" />
-                              Visit
+                              <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4" />
+                              Project Closed
                             </Button>
                           </div>
                         </div>
