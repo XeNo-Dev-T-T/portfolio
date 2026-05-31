@@ -11,7 +11,7 @@ export const Contact = () => {
   const [, navigate] = useLocation();
 
   const copyDiscordUsername = (event: React.MouseEvent<HTMLButtonElement>) => {
-    navigator.clipboard.writeText('aegis');
+    navigator.clipboard.writeText('amrit');
     const button = event.currentTarget;
     const original = button.innerHTML;
     button.textContent = 'Username copied!';

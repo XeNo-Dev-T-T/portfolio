@@ -1,17 +1,17 @@
 export const portfolioConfig = {
   personal: {
-    name: "Aegis",
-    title: "Bot Developer",
-    tagline: "Hello, I'm Aegis, a professional bot developer specializing in modern digital solutions. I create reliable, scalable applications that help businesses grow and succeed online.",
-    email: "aegis@strelixcloud.com",
+    name: "Amrit",
+    title: "Python Enthusiast Dev",
+    tagline: "Hello, I'm Amrit, a Python enthusiast developer who loves building modern digital solutions. I create reliable, scalable applications that help people and businesses grow and succeed online.",
+    email: "amritanshutiwari317@gmail.com",
     location: "N/A",
     avatar: "/src/assets/aegis.png"
   },
 
   seo: {
-    title: "Aegis - Bot Developer Portfolio",
-    description: "Professional bot developer creating modern applications. View my portfolio showcasing recent projects and technical expertise.",
-    keywords: ["bot developer", "discord.py", "python", "node.js", "discord bots", "automation"],
+    title: "Amrit - Python Enthusiast Dev Portfolio",
+    description: "Python enthusiast developer creating modern applications. View my portfolio showcasing recent projects and technical expertise.",
+    keywords: ["python developer", "python", "discord.py", "node.js", "automation", "open source"],
     ogImage: "/og-image.png"
   },
 
@@ -117,7 +117,7 @@ export const portfolioConfig = {
     linkedin: "https://linkedin.com/in/aegis",
     twitter: "https://twitter.com/aegis",
     youtube: "https://youtube.com/@aerox-devs?si=PfSlKrjWD_pV2SXb",
-    email: "mailto:aegis@strelixcloud.com"
+    email: "mailto:amritanshutiwari317@gmail.com"
   },
 
   content: {
