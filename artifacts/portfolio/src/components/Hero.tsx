@@ -4,7 +4,7 @@ import { AnimatedSection } from "./AnimatedSection";
 import { Button } from "@/components/ui/button";
 import { Github, Mail, FileText, Download, Calculator, Users } from "lucide-react";
 import { portfolioConfig } from "../config/portfolio.config";
-import pixelAvatar from "../assets/aegis.png";
+import pixelAvatar from "../assets/avatar.jpg";
 import { Link } from "wouter";
 
 export const Hero = () => {
