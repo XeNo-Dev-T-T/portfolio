@@ -3,7 +3,7 @@ import { AnimatedSection } from "./AnimatedSection";
 import { Mail, Github, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { portfolioConfig } from "../config/portfolio.config";
-import aeroXIcon from "../assets/AeroX.png";
+
 import { useLocation } from "wouter";
 
 export const Contact = () => {

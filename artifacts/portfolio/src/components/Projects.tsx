@@ -4,10 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github, Clock, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { portfolioConfig } from "../config/portfolio.config";
-import AeroXIcon from "../assets/AeroX.png";
-import StreliziaIcon from "../assets/Strelizia.png";
-import AddieIcon from "../assets/Addie.png";
-import StrelixCloudIcon from "../assets/StrelixCloud.png";
+import PegasusIcon from "../assets/StrelixCloud.png";
 
 const statusIcons: Record<string, React.ElementType> = {
   production: Star,
@@ -24,10 +21,7 @@ const statusColors: Record<string, string> = {
 };
 
 const projectIcons: Record<string, string> = {
-  AeroX: AeroXIcon,
-  Strelizia: StreliziaIcon,
-  Addiee: AddieIcon,
-  StrelixCloud: StrelixCloudIcon
+  "Pegasus.host": PegasusIcon
 };
 
 export const Projects = () => {
