@@ -39,14 +39,9 @@ export const portfolioConfig = {
   },
 
   skills: [
-    { name: "React", category: "Frontend", level: 95 },
-    { name: "TypeScript", category: "Language", level: 90 },
-    { name: "Node.js", category: "Backend", level: 85 },
-    { name: "Python", category: "Language", level: 80 },
-    { name: "Databases", category: "Backend", level: 68 },
+    { name: "Python", category: "Language", level: 85 },
     { name: "UI/UX", category: "Design", level: 95 },
-    { name: "Infrastructure", category: "DevOps", level: 94 },
-    { name: "DevOps", category: "DevOps", level: 70 }
+    { name: "AI Assisted Web Dev", category: "Frontend", level: 90 }
   ],
 
   projects: [
