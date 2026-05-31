@@ -36,7 +36,7 @@ export const Skills = () => {
                 </div>
               </AnimatedSection>
 
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
                 {skillsData.map((skill, index) => {
                   const IconComponent = iconMap[skill.category] || Code;
                   return (
@@ -82,11 +82,8 @@ export const Skills = () => {
               </div>
 
               <AnimatedSection animation="slide-in-up" delay={5}>
-                <div className="text-center pt-8">
+                <div className="text-center pt-8 space-y-6">
                   <div className="bg-background/30 backdrop-blur-sm p-6 rounded-xl border border-accent/20">
-                    <p className="text-muted-foreground font-mono text-sm mb-4">
-                      Always learning, always growing
-                    </p>
                     <div className="flex justify-center flex-wrap gap-4 text-xs font-mono">
                       <span className="text-accent">Years of Experience: 3+</span>
                       <span className="text-muted-foreground">•</span>
@@ -95,6 +92,9 @@ export const Skills = () => {
                       <span className="text-accent">Technologies Mastered: 20+</span>
                     </div>
                   </div>
+                  <p className="text-muted-foreground/70 font-mono text-sm italic tracking-wide">
+                    "I don't just write code — I craft logic into life, one line at a time."
+                  </p>
                 </div>
               </AnimatedSection>
             </div>
