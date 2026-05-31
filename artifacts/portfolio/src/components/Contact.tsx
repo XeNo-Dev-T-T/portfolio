@@ -11,7 +11,7 @@ export const Contact = () => {
   const [, navigate] = useLocation();
 
   const copyDiscordUsername = (event: React.MouseEvent<HTMLButtonElement>) => {
-    navigator.clipboard.writeText('amrit');
+    navigator.clipboard.writeText('ask_d_question12');
     const button = event.currentTarget;
     const original = button.innerHTML;
     button.textContent = 'Username copied!';
@@ -71,15 +71,6 @@ export const Contact = () => {
                     >
                       <Github className="w-4 h-4 mr-2" />
                       GitHub
-                    </Button>
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      className="terminal-hover font-mono transition-all duration-300 hover:scale-105 hover:shadow-lg"
-                      onClick={() => window.open('https://discord.gg/ZVz7CgTy5v', '_blank')}
-                    >
-                      <img src={aeroXIcon} alt="AeroX Icon" className="w-4 h-4 mr-2 object-contain" />
-                      AeroX
                     </Button>
                     <Button
                       variant="outline"
