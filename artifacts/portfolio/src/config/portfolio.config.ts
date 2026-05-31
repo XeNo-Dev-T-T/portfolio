@@ -46,7 +46,7 @@ export const portfolioConfig = {
 
   projects: [
     {
-      name: "StrelixCloud",
+      name: "Pegasus.host",
       year: "2025",
       description: "Professional hosting platform providing custom development and premium digital solutions for modern businesses and gaming communities.",
       tags: ["Pterodactyl", "Proxmox", "Docker"],
@@ -55,54 +55,6 @@ export const portfolioConfig = {
       links: {
         github: "https://github.com/AeroXDevs",
         live: "https://strelixcloud.com"
-      }
-    },
-    {
-      name: "AeroX",
-      year: "2025",
-      description: "A comprehensive development platform and community hub for programmers and coders.",
-      tags: ["Discord.py", "Python3", "Nodejs"],
-      status: "production",
-      featured: true,
-      links: {
-        github: "https://github.com/AeroXDevs",
-        live: "https://discord.gg/ZVz7CgTy5v"
-      }
-    },
-    {
-      name: "Strelizia",
-      year: "2025",
-      description: "Advanced automation and management platform with powerful features for streamlined workflows.",
-      tags: ["Python", "Automation", "Discord"],
-      status: "production",
-      featured: true,
-      links: {
-        github: "https://github.com/AeroXDevs",
-        live: "https://discord.gg/strelix"
-      }
-    },
-    {
-      name: "Addiee",
-      year: "2025",
-      description: "Advanced Discord bot with modern features for server management and community engagement.",
-      tags: ["React", "TypeScript", "Node.js"],
-      status: "coming soon",
-      featured: false,
-      links: {
-        github: "https://github.com/AeroXDevs",
-        live: "https://discord.gg/strelix"
-      }
-    },
-    {
-      name: "Strelix Selfbot",
-      year: "2025",
-      description: "Interactive data visualization and analytics platform for creating comprehensive dashboards with real-time insights.",
-      tags: ["JavaScript", "nodejs", "selfbot.js"],
-      status: "coming soon",
-      featured: false,
-      links: {
-        github: "https://github.com/AeroXDevs",
-        live: "https://discord.gg/strelix"
       }
     }
   ],
