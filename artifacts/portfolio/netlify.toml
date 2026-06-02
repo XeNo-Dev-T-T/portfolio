@@ -1,7 +1,10 @@
 [build]
-  base = "artifacts/portfolio"
-  command = "pnpm install && pnpm run build"
-  publish = "dist/public"
+  base = "."
+  command = "pnpm install && pnpm --filter @workspace/portfolio run build"
+  publish = "artifacts/portfolio/dist/public"
+
+[build.environment]
+  BASE_PATH = "/"
 
 [[redirects]]
   from = "/*"
