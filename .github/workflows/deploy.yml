@@ -36,6 +36,9 @@ jobs:
           BASE_PATH: /portfolio/
           NODE_ENV: production
 
+      - name: Disable Jekyll
+        run: touch artifacts/portfolio/dist/public/.nojekyll
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: artifacts/portfolio/dist/public
