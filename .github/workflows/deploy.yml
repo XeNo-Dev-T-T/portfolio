@@ -28,10 +28,12 @@ jobs:
         run: npm install -g pnpm@9
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
+        working-directory: artifacts/portfolio
 
-      - name: Build portfolio
-        run: pnpm --filter @workspace/portfolio run build
+      - name: Build
+        run: pnpm run build
+        working-directory: artifacts/portfolio
         env:
           BASE_PATH: /portfolio/
           NODE_ENV: production
